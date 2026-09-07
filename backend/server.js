@@ -4,6 +4,8 @@ import Product from "./models/Product.js";
 
 const app = express();
 
+app.use(express.json());
+
 const PORT = process.env.PORT || 5000;
 
 app.get("/", (req, res) => {
@@ -17,6 +19,20 @@ app.get("/api/products", async (req, res) => {
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: "Failed to fetch products" });
+  }
+});
+
+app.post("/api/products", async (req, res) => {
+  try {
+    const product = await Product.create({
+      name: req.body.name,
+      price: req.body.price,
+    });
+
+    res.status(201).json(product);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: "Failed to create product" });
   }
 });
 
