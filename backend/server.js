@@ -1,4 +1,6 @@
 import express from "express";
+import sequelize from "./database.js";
+import Product from "./models/Product.js";
 
 const app = express();
 
@@ -8,21 +10,31 @@ app.get("/", (req, res) => {
   res.send("PrintTshirts backend is running!");
 });
 
-app.get("/api/products", (req, res) => {
-  res.json([
-    {
-      id: 1,
-      name: "Classic Black T-Shirt",
-      price: 499,
-    },
-    {
-      id: 2,
-      name: "White Graphic T-Shirt",
-      price: 599,
-    },
-  ]);
+app.get("/api/products", async (req, res) => {
+  try {
+    const products = await Product.findAll();
+    res.json(products);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: "Failed to fetch products" });
+  }
 });
 
-app.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}`);
-});
+async function startServer() {
+  try {
+    await sequelize.authenticate();
+    console.log("Aiven MySQL connected successfully!");
+
+    await sequelize.sync();
+    console.log("Database tables synchronized!");
+
+    app.listen(PORT, () => {
+      console.log(`Server running on port ${PORT}`);
+    });
+  } catch (error) {
+    console.error("Database connection failed:");
+    console.error(error);
+  }
+}
+
+startServer();
