@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1200 630"
+   width="1200"
+   height="630"
+   version="1.1"
+   id="svg39"
+   sodipodi:docname="bb31784a-a281-4561-90ca-fda8d300e3f2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview39"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <defs
+     id="defs12">
+    <!-- Background Gradients -->
+    <radialGradient
+       id="bgGlow"
+       cx="85%"
+       cy="30%"
+       r="65%">
+      <stop
+         offset="0%"
+         stop-color="#4f46e5"
+         stop-opacity="0.35"
+         id="stop1" />
+      <stop
+         offset="60%"
+         stop-color="#090d16"
+         stop-opacity="0.95"
+         id="stop2" />
+      <stop
+         offset="100%"
+         stop-color="#06080e"
+         stop-opacity="1"
+         id="stop3" />
+    </radialGradient>
+    <radialGradient
+       id="accentGlow"
+       cx="20%"
+       cy="80%"
+       r="50%">
+      <stop
+         offset="0%"
+         stop-color="#06b6d4"
+         stop-opacity="0.18"
+         id="stop4" />
+      <stop
+         offset="100%"
+         stop-color="#06080e"
+         stop-opacity="0"
+         id="stop5" />
+    </radialGradient>
+    <!-- Text & Element Gradients -->
+    <linearGradient
+       id="textGrad"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="0%">
+      <stop
+         offset="0%"
+         stop-color="#38bdf8"
+         id="stop6" />
+      <stop
+         offset="50%"
+         stop-color="#818cf8"
+         id="stop7" />
+      <stop
+         offset="100%"
+         stop-color="#c084fc"
+         id="stop8" />
+    </linearGradient>
+    <linearGradient
+       id="teeBody"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         stop-color="#1e293b"
+         id="stop9" />
+      <stop
+         offset="100%"
+         stop-color="#0f172a"
+         id="stop10" />
+    </linearGradient>
+    <linearGradient
+       id="teeGlow"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         stop-color="#38bdf8"
+         stop-opacity="0.6"
+         id="stop11" />
+      <stop
+         offset="100%"
+         stop-color="#818cf8"
+         stop-opacity="0.2"
+         id="stop12" />
+    </linearGradient>
+    <!-- Drop Shadows -->
+    <filter
+       id="cardShadow"
+       x="-0.13593514"
+       y="-0.35446155"
+       width="1.2718702"
+       height="1.668923">
+      <feDropShadow
+         dx="0"
+         dy="20"
+         stdDeviation="25"
+         flood-color="#000"
+         flood-opacity="0.6" />
+    </filter>
+    <filter
+       id="glowLight"
+       x="-0.1536"
+       y="-0.36923077"
+       width="1.3072"
+       height="1.7384615">
+      <feGaussianBlur
+         stdDeviation="8"
+         result="blur"
+         id="feGaussianBlur12" />
+      <feComposite
+         in="SourceGraphic"
+         in2="blur"
+         operator="over"
+         id="feComposite12" />
+    </filter>
+  </defs>
+  <!-- Background Base -->
+  <rect
+     width="1200"
+     height="630"
+     fill="#07090e"
+     id="rect12" />
+  <rect
+     width="1200"
+     height="630"
+     fill="url(#bgGlow)"
+     id="rect13" />
+  <rect
+     width="1200"
+     height="630"
+     fill="url(#accentGlow)"
+     id="rect14" />
+  <!-- Subtle Background Grid Pattern -->
+  <g
+     opacity="0.08"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="g22">
+    <line
+       x1="100"
+       y1="0"
+       x2="100"
+       y2="630"
+       id="line14" />
+    <line
+       x1="300"
+       y1="0"
+       x2="300"
+       y2="630"
+       id="line15" />
+    <line
+       x1="500"
+       y1="0"
+       x2="500"
+       y2="630"
+       id="line16" />
+    <line
+       x1="700"
+       y1="0"
+       x2="700"
+       y2="630"
+       id="line17" />
+    <line
+       x1="900"
+       y1="0"
+       x2="900"
+       y2="630"
+       id="line18" />
+    <line
+       x1="1100"
+       y1="0"
+       x2="1100"
+       y2="630"
+       id="line19" />
+    <line
+       x1="0"
+       y1="120"
+       x2="1200"
+       y2="120"
+       id="line20" />
+    <line
+       x1="0"
+       y1="280"
+       x2="1200"
+       y2="280"
+       id="line21" />
+    <line
+       x1="0"
+       y1="440"
+       x2="1200"
+       y2="440"
+       id="line22" />
+  </g>
+  <!-- LEFT COLUMN: Brand, Headline, Subtext, Benefits -->
+  <!-- Brand Pill -->
+  <g
+     transform="translate(80, 75)"
+     id="g23">
+    <rect
+       width="210"
+       height="42"
+       rx="21"
+       fill="#1e293b"
+       stroke="#334155"
+       stroke-width="1.5"
+       id="rect22" />
+    <circle
+       cx="24"
+       cy="21"
+       r="7"
+       fill="#38bdf8"
+       id="circle22" />
+    <text
+       x="42"
+       y="27"
+       fill="#f8fafc"
+       font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+       font-size="16"
+       font-weight="700"
+       letter-spacing="1.5"
+       id="text22">PRINTTSHIRTS</text>
+  </g>
+  <!-- Main Headline -->
+  <text
+     x="80"
+     y="200"
+     fill="#ffffff"
+     font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+     font-size="54"
+     font-weight="800"
+     line-height="1.15"
+     id="text23">
+    Custom Tees Made Easy.
+  </text>
+  <text
+     x="80"
+     y="265"
+     fill="url(#textGrad)"
+     font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+     font-size="54"
+     font-weight="800"
+     id="text24">
+    Printed &amp; Delivered.
+  </text>
+  <!-- Subheadline -->
+  <text
+     x="80"
+     y="325"
+     fill="#94a3b8"
+     font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+     font-size="21"
+     font-weight="400"
+     id="text25">
+    Premium 100% combed cotton with vibrant, long-lasting prints.
+  </text>
+  <text
+     x="80"
+     y="358"
+     fill="#94a3b8"
+     font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+     font-size="21"
+     font-weight="400"
+     id="text26">
+    Design online in seconds with zero minimum orders.
+  </text>
+  <!-- Feature Pills -->
+  <g
+     transform="translate(80, 415)"
+     id="g32">
+    <!-- Pill 1 -->
+    <rect
+       x="0"
+       y="0"
+       width="160"
+       height="40"
+       rx="10"
+       fill="#111827"
+       stroke="#374151"
+       stroke-width="1"
+       id="rect26" />
+    <text
+       x="20"
+       y="25"
+       fill="#38bdf8"
+       font-family="sans-serif"
+       font-size="14"
+       font-weight="700"
+       id="text27">✓</text>
+    <text
+       x="40"
+       y="25"
+       fill="#e2e8f0"
+       font-family="sans-serif"
+       font-size="14"
+       font-weight="600"
+       id="text28">No Minimums</text>
+    <!-- Pill 2 -->
+    <rect
+       x="175"
+       y="0"
+       width="165"
+       height="40"
+       rx="10"
+       fill="#111827"
+       stroke="#374151"
+       stroke-width="1"
+       id="rect28" />
+    <text
+       x="195"
+       y="25"
+       fill="#38bdf8"
+       font-family="sans-serif"
+       font-size="14"
+       font-weight="700"
+       id="text29">✓</text>
+    <text
+       x="215"
+       y="25"
+       fill="#e2e8f0"
+       font-family="sans-serif"
+       font-size="14"
+       font-weight="600"
+       id="text30">Fast Shipping</text>
+    <!-- Pill 3 -->
+    <rect
+       x="355"
+       y="0"
+       width="180"
+       height="40"
+       rx="10"
+       fill="#111827"
+       stroke="#374151"
+       stroke-width="1"
+       id="rect30" />
+    <text
+       x="375"
+       y="25"
+       fill="#38bdf8"
+       font-family="sans-serif"
+       font-size="14"
+       font-weight="700"
+       id="text31">✓</text>
+    <text
+       x="395"
+       y="25"
+       fill="#e2e8f0"
+       font-family="sans-serif"
+       font-size="14"
+       font-weight="600"
+       id="text32">From ₹299 Only</text>
+  </g>
+  <!-- Bottom URL / CTA indicator -->
+  <g
+     transform="translate(80, 520)"
+     id="g34">
+    <text
+       x="0"
+       y="20"
+       fill="#64748b"
+       font-family="sans-serif"
+       font-size="18"
+       font-weight="500"
+       id="text33">Order online at</text>
+    <text
+       x="135"
+       y="20"
+       fill="#38bdf8"
+       font-family="sans-serif"
+       font-size="18"
+       font-weight="700"
+       id="text34">printtshirts.in</text>
+  </g>
+  <!-- RIGHT COLUMN: 3D-Styled T-Shirt Illustration Mockup -->
+  <g
+     transform="translate(730, 95)"
+     filter="url(#cardShadow)"
+     id="g39">
+    <!-- Back Glow behind T-Shirt -->
+    <circle
+       cx="200"
+       cy="220"
+       r="180"
+       fill="#6366f1"
+       opacity="0.15"
+       filter="url(#glowLight)"
+       id="circle34" />
+    <!-- T-Shirt Silhouette Path -->
+    <path
+       d="M 120 40               C 145 75, 255 75, 280 40               L 345 75               L 385 160               L 320 190               L 300 160               L 300 390               C 300 405, 290 415, 275 415               L 125 415               C 110 415, 100 405, 100 390               L 100 160               L 80 190               L 15 160               L 55 75 Z"
+       fill="url(#teeBody)"
+       stroke="url(#teeGlow)"
+       stroke-width="2.5"
+       id="path34" />
+    <!-- Crew Neckline Inner Curve -->
+    <path
+       d="M 120 40 C 145 80, 255 80, 280 40 C 255 65, 145 65, 120 40 Z"
+       fill="#0b1120"
+       stroke="#334155"
+       stroke-width="1.5"
+       id="path35" />
+    <!-- Center Graphic on Chest (Mock Print) -->
+    <g
+       transform="translate(150, 150)"
+       id="g36">
+      <rect
+         width="100"
+         height="100"
+         rx="18"
+         fill="#0f172a"
+         stroke="#1e293b"
+         stroke-width="1.5"
+         id="rect35" />
+      <circle
+         cx="50"
+         cy="42"
+         r="20"
+         fill="url(#textGrad)"
+         id="circle35" />
+      <path
+         d="M 30 72 C 38 60, 62 60, 70 72"
+         stroke="#38bdf8"
+         stroke-width="3"
+         stroke-linecap="round"
+         fill="none"
+         id="path36" />
+      <text
+         x="50"
+         y="85"
+         fill="#94a3b8"
+         font-family="sans-serif"
+         font-size="9"
+         font-weight="700"
+         text-anchor="middle"
+         letter-spacing="1"
+         id="text36">ORIGINAL</text>
+    </g>
+    <!-- Floating Price Tag Badge -->
+    <g
+       transform="translate(245, 310)"
+       filter="url(#glowLight)"
+       id="g38">
+      <rect
+         width="125"
+         height="52"
+         rx="14"
+         fill="#0284c7"
+         id="rect36" />
+      <text
+         x="18"
+         y="24"
+         fill="#bae6fd"
+         font-family="sans-serif"
+         font-size="11"
+         font-weight="700"
+         id="text37">STARTING AT</text>
+      <text
+         x="18"
+         y="44"
+         fill="#ffffff"
+         font-family="sans-serif"
+         font-size="19"
+         font-weight="900"
+         id="text38">₹299</text>
+    </g>
+  </g>
+</svg>
